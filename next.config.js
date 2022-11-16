@@ -6,9 +6,9 @@ const nextConfig = {
 
 module.exports = nextConfig,
 module.exports = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  // eslint: {
+  //   ignoreDuringBuilds: true,
+  // },
   experimental: {
     forceSwcTransforms: true,
   },
