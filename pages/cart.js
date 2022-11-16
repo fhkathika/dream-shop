@@ -8,7 +8,7 @@ import Navbar from '../Conponents/Navbar';
 import { mobile } from './responsive';
 import StripeCheckout from 'react-stripe-checkout';
 import axios from 'axios';
-import { userRequest } from '../pages/requestMethod';
+import { userRequest } from './requestMethod';
 import { useHistory } from 'react-router-dom';
 import {useRouter} from 'next/router'
 import { clearCart } from '../redux/cartRedux';
