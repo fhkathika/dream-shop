@@ -1,7 +1,15 @@
 # example netlify.toml
 [build]
-  command= "next build"
-  functions = "netlify/functions"
-  publish = ".next"
+  command: "next build"
+  commandOrigin: "config"
+ environment:
+ - NEXT_PRIVATE_TARGET
+     publish: /opt/build/repo/.next
+     publishOrigin: config
+   functionsDirectory: /opt/build/repo/netlify/functions
+   plugins:
+     - inputs: {}
+       origin: ui
+       package: '@netlify/plugin-nextjs'
 
   
