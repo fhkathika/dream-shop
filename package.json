@@ -18,8 +18,13 @@
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "firebase": "^9.14.0",
+<<<<<<< HEAD
     "n": "^9.0.1",
     "next": "13.0.3",
+=======
+    "next": "^13.0.3",
+    "node": "^19.1.0",
+>>>>>>> 0683387ccdb90ecc057a5607c96673c2a6b0fc77
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-redux": "^8.0.5",
