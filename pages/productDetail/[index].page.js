@@ -158,7 +158,7 @@ const Product = () => {
       else{
         setUserId('')
      
-        router.push('/login')
+        router.push('/login.page')
       }
          
             

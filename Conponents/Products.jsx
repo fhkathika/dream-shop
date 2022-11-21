@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { popularProducts } from '../pages/api/data';
+import { popularProducts } from '../pages/api/data.page';
 import Product from './Product';
 const Container = styled.div`
 padding: 20px;

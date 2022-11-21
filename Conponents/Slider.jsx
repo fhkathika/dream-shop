@@ -1,7 +1,7 @@
 import { ArrowLeftOutlined, ArrowRightOutlined, ControlPointSharp } from '@mui/icons-material';
 import styled from 'styled-components';
 import React, { useState } from 'react';
-import {sliderItems} from '../pages/api/data'
+import {sliderItems} from '../pages/api/data.page'
 import { mobile } from '../pages/responsive.page';
 
 const Conatiner = styled.div`
