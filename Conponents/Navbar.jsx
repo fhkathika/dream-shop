@@ -135,7 +135,7 @@ router.push("/Register")
                     <Link href="/cart">
                     <MenuItem>
                     {
-                        userCart.loginUser.userId==activeUser?._id  &&
+                        userCart?.loginUser?.userId==activeUser?._id  &&
                         <Badge badgeContent= { quantity }color="primary"  >
                         <ShoppingCartIcon color="action" />
                     </Badge>

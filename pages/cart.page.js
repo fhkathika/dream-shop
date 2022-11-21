@@ -219,7 +219,7 @@ console.log('cRT',cart)
             
           
             {
-              cart.products?.filter((item)=>item?.userId==currentUser?._id).map((product) => (
+              cart?.products?.filter((item)=>item?.userId===currentUser?._id).map((product) => (
                 <>
                   <Product>
                     <ProductDetail>
@@ -256,7 +256,7 @@ console.log('cRT',cart)
           </Info>
          
           {
-              cart.loginUser.userId==currentUser?._id ?
+              cart?.loginUser?.userId==currentUser?._id ?
                 <Summary>
             <SummaryTitle> Order Summery</SummaryTitle>
         
