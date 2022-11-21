@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import styled from 'styled-components';
 import { login } from '../redux/apiCalls';
 import { useRouter } from 'next/router'
-import { mobile } from './responsive';
+import { mobile } from './responsive.page';
 import Refresh from '@mui/icons-material';
 import { useEffect } from 'react';
 const Container = styled.div`

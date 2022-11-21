@@ -6,7 +6,7 @@ import Footer from '../../Conponents/Footer';
 import Navbar from '../../Conponents/Navbar';
 import Newsletter from '../../Conponents/Newsletter';
 import Products from '../../Conponents/Products';
-import { mobile } from '../responsive';
+import { mobile } from '../responsive.page';
 const Conatiner=styled.div`
     
 `;

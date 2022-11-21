@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Badge from '@mui/material/Badge';
 import styled from "styled-components";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import {mobile} from '../pages/responsive'
+import {mobile} from '../pages/responsive.page'
 import { useDispatch, useSelector } from 'react-redux';
 import Link from 'next/link';
 import { useRouter } from 'next/router';

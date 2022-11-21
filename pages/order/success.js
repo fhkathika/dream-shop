@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import Announcement from "../../Conponents/Announcement";
 import Navbar from "../../Conponents/Navbar";
-import { publicRequest, userRequest } from "../requestMethod";
+import { publicRequest, userRequest } from "../requestMethod.page";
 import styles from './order.module.scss'
 
 

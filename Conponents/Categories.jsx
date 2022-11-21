@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {categories} from '../pages/api/data'
-import { mobile } from '../pages/responsive';
+import { mobile } from '../pages/responsive.page';
 import CategoryItem from './CategoryItem';
 const Container=styled.div`
 display: flex;

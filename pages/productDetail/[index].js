@@ -7,8 +7,8 @@ import Footer from '../../Conponents/Footer';
 import Navbar from '../../Conponents/Navbar';
 import Newsletter from '../../Conponents/Newsletter';
 import { addProduct } from '../../redux/cartRedux';
-import { publicRequest } from '../requestMethod';
-import { mobile } from '../responsive';
+import { publicRequest } from '../requestMethod.page';
+import { mobile } from '../responsive.page';
 import { useDispatch, useSelector } from 'react-redux';
 
 
