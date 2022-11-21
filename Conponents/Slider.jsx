@@ -2,7 +2,7 @@ import { ArrowLeftOutlined, ArrowRightOutlined, ControlPointSharp } from '@mui/i
 import styled from 'styled-components';
 import React, { useState } from 'react';
 import {sliderItems} from '../pages/api/data.page'
-import { mobile } from '../pages/responsive.page';
+import { mobile } from '../functions/responsive.page';
 
 const Conatiner = styled.div`
     width:100%;

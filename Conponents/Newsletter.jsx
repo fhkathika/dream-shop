@@ -1,7 +1,7 @@
 import { Send } from '@mui/icons-material';
 import React from 'react';
 import styled from 'styled-components';
-import { mobile } from '../pages/responsive.page';
+import { mobile } from '../functions/responsive.page';
 const Container=styled.div`
    height: 60vh;
    background-color : #fcf5f5;

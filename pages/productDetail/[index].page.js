@@ -7,8 +7,8 @@ import Footer from '../../Conponents/Footer';
 import Navbar from '../../Conponents/Navbar';
 import Newsletter from '../../Conponents/Newsletter';
 import { addProduct } from '../../redux/cartRedux';
-import { publicRequest } from '../requestMethod.page';
-import { mobile } from '../responsive.page';
+import { publicRequest } from '../../functions/requestMethod.page';
+import { mobile } from '../../functions/responsive.page';
 import { useDispatch, useSelector } from 'react-redux';
 
 
@@ -158,7 +158,7 @@ const Product = () => {
       else{
         setUserId('')
      
-        router.push('/login.page')
+        router.push('/login')
       }
          
             

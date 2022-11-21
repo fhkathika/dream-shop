@@ -5,10 +5,10 @@ import styled from 'styled-components';
 import Announcement from '../Conponents/Announcement';
 import Footer from '../Conponents/Footer';
 import Navbar from '../Conponents/Navbar';
-import { mobile } from './responsive.page';
+import { mobile } from '../functions/responsive.page';
 import StripeCheckout from 'react-stripe-checkout';
 import axios from 'axios';
-import { userRequest } from './requestMethod.page';
+import { userRequest } from '../functions/requestMethod.page'
 import { useHistory } from 'react-router-dom';
 import {useRouter} from 'next/router'
 import { clearCart } from '../redux/cartRedux';

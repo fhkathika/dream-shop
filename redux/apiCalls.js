@@ -1,4 +1,4 @@
-import { publicRequest } from "../pages/requestMethod.page"
+import { publicRequest } from "../functions/requestMethod.page"
 import { clearCart } from "./cartRedux"
 import { loginFailure, loginStart, loginSuccess, logoutFailure, logoutStart, logoutSuccess, registerFailure, registerStart, registerSuccess } from "./userRedux"
 

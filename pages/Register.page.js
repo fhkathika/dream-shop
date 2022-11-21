@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import styled from 'styled-components';
 import { register } from '../redux/apiCalls';
-import { publicRequest, registeruserRequest } from './requestMethod.page';
-import { mobile } from './responsive.page';
+import { publicRequest, registeruserRequest } from '../functions/requestMethod.page';
+import { mobile } from '../functions/responsive.page';
 const Container = styled.div`
 width: 100vw;
 height: 100vh;
